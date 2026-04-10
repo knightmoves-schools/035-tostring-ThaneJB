@@ -12,4 +12,7 @@ public class Person {
    }
 
    // Add your code here
+   public override string? ToString(){
+      return $"first name: {firstName}, last name: {lastName}, age: {age}";
+   }
 }
